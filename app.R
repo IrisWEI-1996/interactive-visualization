@@ -27,13 +27,6 @@ library(shinyBS)
 library(DT)
 library(edgeR)
 
-
-# runExample("02_text")
-
-#setwd("E:/YJ/1GIBH/CJK/projects/interactive Shiny R/yj")
-f <- read.csv("scTE interactive surface/TE.layout.csv",header = T)
-write.csv(f[1:1000,],file='scTE interactive surface/testlayout.csv',quote=T)
-
 ui <- shinyUI(pageWithSidebar(
   headerPanel("Interactive Visualization scRNA-seq analysis"),
   
